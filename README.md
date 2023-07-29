@@ -2,11 +2,11 @@
 
 **Fundamentals of Data Engineering - Tableau ETL Processes**
 
-**Overview**
+# **Overview**
 
 This repository provides a comprehensive guide to performing Extract, Transform, and Load (ETL) processes using Tableau for efficient data engineering. The ETL processes are divided into four phases, each containing a series of steps to cleanse, merge, and engineer the data to create meaningful insights.
 
-**Phase 1**
+# **Phase 1**
 
 Connect to Customer file.
 
@@ -26,7 +26,7 @@ Remove punctuations from the "Occupation" field.
 
 Split the email addresses and remove the characters before "@".
 
-**Phase 2**
+# **Phase 2**
 
 Add the "Adventure Works Customer New" file.
 
@@ -36,7 +36,7 @@ Split the Social Media fields into separate columns.
 
 Load the cleaned data into the "DimCustomer" table.
 
-**Phase 3**
+# **Phase 3**
 
 Add the following files:
 
@@ -56,7 +56,7 @@ Remove table names from the dataset.
 
 Load the aggregated data into the "FactSales" table.
 
-**Phase 4**
+# **Phase 4**
 
 Add the "Returns" table and the "Product" table.
 
@@ -74,7 +74,8 @@ Territory Key
 
 Create a new table in the database called "DMReturns".
 
-**Conclusion:**
+# **Conclusion:**
+
 Feel free to explore the repository and learn the intricacies of ETL processes in Tableau. Happy data engineering!
 
 If you encounter any issues or have suggestions, please feel free to raise an issue or submit a pull request. Your contributions are appreciated. Enjoy the journey of data engineering with Tableau!
